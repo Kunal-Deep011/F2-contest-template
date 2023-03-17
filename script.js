@@ -4,18 +4,22 @@ function calculate(num1, num2, operator) {
   // if operator == "+" then return num1+num2 , else if operator == "-" then return num1-num2 and so on....
   //   write your code here -->
   var result = null;
+  //for adding
   if(operator == "+")
   {
     result = (num1+num2);
   }
+  //for subtracting
   else if(operator == "-")
   {
     result = (num1-num2);
   }
+  //for multiplication
   else if(operator == "*")
   {
     result = (num1*num2);
   }
+  //for division
   else if(operator == "/")
   {
     result = (num1/num2);
